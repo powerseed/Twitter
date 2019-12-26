@@ -9,22 +9,12 @@
   <title>@yield("title", "Twitter")</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="">Twitter</a>
-      <ul class="navbar-nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link" href="">Help</a>
-        </li>
-        <li>
-          <a class="nav-link" href="">Sign up</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
+  @include("layouts._header")
   <div class="container">
     @yield("content")
+    @include("layouts._footer")
   </div>
+
+
 </body>
 </html>

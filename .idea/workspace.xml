@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dede72a8-facf-4b0a-be0e-b1eceb80d628" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577331209040</updated>
       <workItem from="1577331210720" duration="243000" />
-      <workItem from="1577331464573" duration="14600000" />
+      <workItem from="1577331464573" duration="18530000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;static pages&quot;">
       <created>1577337270427</created>
@@ -191,9 +196,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="673" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1577337269912" />
-    <state x="900" y="341" key="NewPhpFileDialog" timestamp="1577336864081">
+    <state x="900" y="341" key="NewPhpFileDialog" timestamp="1577351386024">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="900" y="341" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1577336864081" />
+    <state x="900" y="341" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1577351386024" />
   </component>
 </project>
