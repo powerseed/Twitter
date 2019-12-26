@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dede72a8-facf-4b0a-be0e-b1eceb80d628" name="Default Changelist" comment="&quot;static pages&quot;">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/StaticPagesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/static_pages/about.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/static_pages/help.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="dede72a8-facf-4b0a-be0e-b1eceb80d628" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,14 +157,23 @@
       <option name="presentableId" value="Default" />
       <updated>1577331209040</updated>
       <workItem from="1577331210720" duration="243000" />
-      <workItem from="1577331464573" duration="3902000" />
+      <workItem from="1577331464573" duration="3919000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;static pages&quot;">
+      <created>1577337270427</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577337270427</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;static pages&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="&quot;static pages&quot;" />
@@ -183,10 +183,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="76" key="#Composer/0.0.1536.834@0.0.1536.834" timestamp="1577331231558" />
-    <state x="673" y="11" key="CommitChangelistDialog2" timestamp="1577337252365">
+    <state x="673" y="11" key="CommitChangelistDialog2" timestamp="1577337269912">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="673" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1577337252365" />
+    <state x="673" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1577337269912" />
     <state x="900" y="341" key="NewPhpFileDialog" timestamp="1577336864081">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
