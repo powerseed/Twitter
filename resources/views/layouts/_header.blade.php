@@ -3,7 +3,7 @@
     <a class="navbar-brand" href="">Twitter</a>
     <ul class="navbar-nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link" href="">Help</a>
+        <a class="nav-link" href="{{ route("help") }}">Help</a>
       </li>
       <li>
         <a class="nav-link" href="">Sign up</a>
