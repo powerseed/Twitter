@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dede72a8-facf-4b0a-be0e-b1eceb80d628" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/shared/_error.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +164,7 @@
       <workItem from="1577331210720" duration="243000" />
       <workItem from="1577331464573" duration="21680000" />
       <workItem from="1577475165549" duration="7000" />
-      <workItem from="1577475177972" duration="9185000" />
+      <workItem from="1577475177972" duration="10778000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;static pages&quot;">
       <created>1577337270427</created>
@@ -198,9 +198,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="673" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1577337269912" />
-    <state x="900" y="341" key="NewPhpFileDialog" timestamp="1577494364394">
+    <state x="900" y="341" key="NewPhpFileDialog" timestamp="1577499299293">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="900" y="341" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1577494364394" />
+    <state x="900" y="341" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1577499299293" />
   </component>
 </project>
