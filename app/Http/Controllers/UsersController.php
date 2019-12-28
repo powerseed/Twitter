@@ -30,6 +30,8 @@ class UsersController extends Controller
                 'email' => $request->email,
                 'password' => bcrypt($request->password)
             ]);
+
+        Auth::login($user);
         session()->flash("success", "Signed up successfully! ");
         return redirect()->route("users.show", compact('user'));
     }

@@ -23,6 +23,7 @@ class SessionsController extends Controller
         if(Auth::attempt($credentials))
         {
             session()->flash("success", "Logged in successfully! ");
+
             return redirect()->route('users.show', [Auth::user()]);
         }
         else
