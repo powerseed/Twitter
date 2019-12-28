@@ -17,6 +17,11 @@
 
             <label for="password">Password</label>
             <input name="password" type="password" class="form-control" value="{{ old("password") }}">
+
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="remember">
+              <label class="form-check-label" for="remember">Remember me</label>
+            </div>
           </div>
 
           <button class="btn btn-primary">Login</button>

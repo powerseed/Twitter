@@ -20,7 +20,7 @@ class SessionsController extends Controller
             ]
         );
 
-        if(Auth::attempt($credentials))
+        if(Auth::attempt($credentials, $request->has("remember")))
         {
             session()->flash("success", "Logged in successfully! ");
 
