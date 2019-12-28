@@ -10,8 +10,16 @@ nav{
   margin-bottom: 20px;
 }
 
+.gravatar{
+  text-align: center;
+  img {
+    border-radius: 50%;
+  }
+}
+
 footer{
   font-weight: bold;
+  margin-top: 50px;
   border-top: 1px solid #eaeaea;
   img{
     margin-right: 5px;

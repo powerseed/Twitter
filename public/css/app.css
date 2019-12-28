@@ -11365,8 +11365,17 @@ nav {
   margin-bottom: 20px;
 }
 
+.gravatar {
+  text-align: center;
+}
+
+.gravatar img {
+  border-radius: 50%;
+}
+
 footer {
   font-weight: bold;
+  margin-top: 50px;
   border-top: 1px solid #eaeaea;
 }
 
