@@ -5,26 +5,28 @@
     <div class="card-header">
       <h5>Sign up</h5>
     </div>
+
     <div class="card-body">
       <form method="post" action="{{ route("users.store") }}">
+        {{ csrf_field() }}
         <div class="form-group">
           <label for="username">Username</label>
-          <input class="form-control" name="username" type="text" value="{{ old("Username") }}">
+          <input class="form-control" type="text" name="username" value="{{ old('username') }}">
         </div>
 
         <div class="form-group">
-          <label for="Email">Email</label>
-          <input class="form-control" name="Email" type="email" value="{{ old("Email") }}">
+          <label for="email">Email</label>
+          <input class="form-control" type="email" name="email" value="{{ old('email') }}">
         </div>
 
         <div class="form-group">
           <label for="password">Password</label>
-          <input class="form-control" name="password" type="password" value="{{ old("password") }}">
+          <input class="form-control" type="password" name="password" value="{{ old('password') }}">
         </div>
 
         <div class="form-group">
           <label for="password_confirmation">Password confirmation</label>
-          <input class="form-control" name="password_confirmation" type="password" value="{{ old("password_confirmation") }}">
+          <input class="form-control" type="password" name="password_confirmation" value="{{ old('password_confirmation') }}">
         </div>
 
         <button type="submit" class="btn btn-primary">Sign up</button>
