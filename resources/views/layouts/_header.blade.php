@@ -13,7 +13,7 @@
           </a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="{{route("users.show", Auth::user())}}">User center</a>
-            <a class="dropdown-item" href="">Edit</a>
+            <a class="dropdown-item" href="{{route("users.edit", Auth::user()->id)}}">Edit</a>
             <div class="dropdown-divider"></div>
             <a class="nav-link" href="">
               <form method="post" action="{{route("logout")}}">
