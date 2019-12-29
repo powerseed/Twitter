@@ -77,4 +77,10 @@ class UsersController extends Controller
         session()->flash("success", "Profile updated successfully! ");
         return redirect()->route("users.show", $user->id);
     }
+
+    public function index()
+    {
+        $users = User::paginate(10);
+        return view("users.index", compact("users"));
+    }
 }

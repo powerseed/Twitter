@@ -4,7 +4,7 @@
     <ul class="navbar-nav justify-content-end">
       @if(Auth::check())
         <li class="nav-item">
-          <a class="nav-link" href="#">Users List</a>
+          <a class="nav-link" href="{{ route("users.index") }}">Users List</a>
         </li>
 
         <li class="nav-item dropdown">
