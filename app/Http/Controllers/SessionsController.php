@@ -29,8 +29,17 @@ class SessionsController extends Controller
 
         if(Auth::attempt($credentials, $request->has("remember")))
         {
-            session()->flash("success", "Logged in successfully! ");
-            return redirect()->intended(route('users.show', Auth::user()));
+            if(Auth::user()->activated == true)
+            {
+                session()->flash("success", "Logged in successfully! ");
+                return redirect()->intended(route('users.show', Auth::user()));
+            }
+            else
+            {
+                Auth::logout();
+                session()->flash("warning", "Please confirm your email first. ");
+                return redirect("/");
+            }
         }
         else
         {

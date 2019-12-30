@@ -4,13 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\User;
+use Illuminate\Support\Facades\Auth;
+use Psy\Util\Str;
+use Mail;
 
 class UsersController extends Controller
 {
     public function __construct()
     {
         $this->middleware('auth', [
-            "except" => ["create", "show", "store", "index"]
+            "except" => ["create", "show", "store", "index", "confirmEmail"]
         ]);
 
         $this->middleware("guest", [
@@ -42,7 +45,7 @@ class UsersController extends Controller
                 'password' => bcrypt($request->password)
             ]);
 
-        Auth::login($user);
+        $this->sendEmailConfirmationTo($user);
         session()->flash("success", "Signed up successfully! ");
         return redirect()->route("users.show", compact('user'));
     }
@@ -90,5 +93,31 @@ class UsersController extends Controller
         $user->delete();
         session()->flash("success", "User removed successfully. ");
         return back();
+    }
+
+    public function sendEmailConfirmationTo($user)
+    {
+        $view = "emails.confirm";
+        $data = compact("user");
+        $from = "summer@example.com";
+        $name = "Summer";
+        $to = $user->email;
+        $subject = "Email Confirmation -- Twitter";
+        Mail::send($view, $data, function ($message) use ($from, $name, $to, $subject){
+            $message->from($from, $name)->to($to)->subject($subject);
+        });
+    }
+
+    public function confirmEmail($token)
+    {
+        $user = User::where("activation_token", $token)->firstOrFail();
+
+        $user->activation_token = null;
+        $user->activated = true;
+        $user->save();
+
+        Auth::login($user);
+        session()->flash("success", "Email confirmed! ");
+        return redirect("/");
     }
 }
