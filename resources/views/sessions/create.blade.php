@@ -17,7 +17,8 @@
 
             <label for="password">Password</label>
             <input name="password" type="password" class="form-control" value="{{ old("password") }}">
-
+            <a href="{{route("password.request")}}">Forgot password?</a>
+            <p></p>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" id="remember">
               <label class="form-check-label" for="remember">Remember me</label>
