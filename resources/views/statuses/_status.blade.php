@@ -1,6 +1,8 @@
-<li class="media mb-2">
+<li class="media mb-4">
   <a href="{{ route("users.show", $user->id) }}">
-    <img class="mr-2" src="{{ $user->gravatar(70) }}" alt="User gravatar">
+    <div class="gravatar">
+      <img class="mr-4" src="{{ $user->gravatar(70) }}" alt="User gravatar">
+    </div>
   </a>
 
   <div class="media-body">

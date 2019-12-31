@@ -13,6 +13,18 @@
         </section>
       </aside>
     </div>
+
+    @if($feed_items->count() > 0)
+      <div class="col-md-8">
+        <h3>Tweets list</h3>
+        <hr>
+        <ul class="list-unstyled">
+          @foreach($feed_items as $status)
+            @include("statuses._status", ["user"=>Auth::user(), "status"=>$status])
+          @endforeach
+        </ul>
+      </div>
+    @endif
   @else
     <div class="jumbotron">
       <h1>Hello Laravel</h1>
