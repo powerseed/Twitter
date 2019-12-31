@@ -11393,3 +11393,11 @@ footer a:hover {
   color: #222;
 }
 
+.user_info {
+  text-align: center;
+}
+
+.user_info img {
+  border-radius: 50%;
+}
+
