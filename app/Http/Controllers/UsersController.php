@@ -120,4 +120,19 @@ class UsersController extends Controller
         session()->flash("success", "Email confirmed! ");
         return redirect("/");
     }
+
+    public function follow($user_ids)
+    {
+        $this->followings()->sync($user_ids, false);
+    }
+
+    public function unfollow($user_ids)
+    {
+        $this->followings()->detach($user_ids);
+    }
+
+    public function isFollowing($user_id)
+    {
+        return $this->followings()->contains($user_id);
+    }
 }
