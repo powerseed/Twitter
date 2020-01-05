@@ -2,17 +2,28 @@
 @section("title", $user->name)
 @section("content")
   @include("shared._messages")
-  <div class="gravatar">
-    @include("shared._user_info", ["user" => $user])
-  </div>
-  @if($statuses->count() > 0)
-    <ul class="list-unstyled">
-      @foreach($statuses as $status)
-        @include("statuses._status", $status)
-      @endforeach
-      {!! $statuses->render() !!}
-    </ul>
-  @else
-    <p>No data.</p>
-  @endif
+    <div class="gravatar col-md-8 offset-2">
+      <div>
+        @include("shared._user_info", ["user" => $user])
+      </div>
+
+      <div class="stats">
+        @include("shared._stat", ["user" => $user])
+      </div>
+
+      <hr>
+
+      <div class="fuck">
+        @if($statuses->count() > 0)
+          <ul class="list-unstyled text-left">
+            @foreach($statuses as $status)
+              @include("statuses._status", $status)
+            @endforeach
+            {!! $statuses->render() !!}
+          </ul>
+        @else
+          <p>No tweet. </p>
+        @endif
+      </div>
+    </div>
 @stop

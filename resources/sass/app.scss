@@ -41,3 +41,20 @@ footer{
     border-radius: 50%;
   }
 }
+
+.stats {
+  overflow: auto;
+  text-align: center;
+  a {
+    float: left;
+    width: 33%;
+    color: #33383c;
+    &:hover {
+      text-decoration: none;
+      color: #337ab7;
+    }
+  }
+  strong {
+    display: block;
+  }
+}

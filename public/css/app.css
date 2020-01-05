@@ -11401,3 +11401,23 @@ footer a:hover {
   border-radius: 50%;
 }
 
+.stats {
+  overflow: auto;
+  text-align: center;
+}
+
+.stats a {
+  float: left;
+  width: 33%;
+  color: #33383c;
+}
+
+.stats a:hover {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.stats strong {
+  display: block;
+}
+
