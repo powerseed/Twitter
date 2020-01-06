@@ -7,7 +7,7 @@
       @foreach($users as $user)
         <div class="list-group list-group-flush gravatar">
           <li class="list-group-item">
-            <img class="" src="{{ $user->gravatar(70) }}" alt="">
+            <img class="mr-2" src="{{ $user->gravatar(70) }}" alt="">
             <a href="{{ route("users.show", $user) }}">{{ $user->name }}</a>
           </li>
         </div>

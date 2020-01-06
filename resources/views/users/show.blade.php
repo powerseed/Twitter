@@ -7,6 +7,10 @@
         @include("shared._user_info", ["user" => $user])
       </div>
 
+      @if(Auth::check())
+        @include("users._follow_form")
+      @endif
+
       <div class="stats">
         @include("shared._stat", ["user" => $user])
       </div>
