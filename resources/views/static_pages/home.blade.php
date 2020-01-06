@@ -23,7 +23,7 @@
         <hr>
         <ul class="list-unstyled">
           @foreach($feed_items as $status)
-            @include("statuses._status", ["user"=>Auth::user(), "status"=>$status])
+            @include("statuses._status", ["user"=>$status->user, "status"=>$status])
           @endforeach
         </ul>
       </div>
