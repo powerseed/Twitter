@@ -3,7 +3,7 @@
 @section("content")
   @include("shared._messages")
     <div class="gravatar col-md-8 offset-2">
-      <div>
+      <div class="text-center">
         @include("shared._user_info", ["user" => $user])
       </div>
 

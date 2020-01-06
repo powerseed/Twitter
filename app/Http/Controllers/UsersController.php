@@ -120,4 +120,18 @@ class UsersController extends Controller
         session()->flash("success", "Email confirmed! ");
         return redirect("/");
     }
+
+    public function followers(User $user)
+    {
+        $users = $user->followers()->paginate(30);
+        $title = $user->name . "'s followers";
+        return view("users.show_follow", compact("users", "title"));
+    }
+
+    public function followings(User $user)
+    {
+        $users = $user->followings()->paginate(30);
+        $title = $user->name . "'s followings";
+        return view("users.show_follow", compact("users", "title"));
+    }
 }
