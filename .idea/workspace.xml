@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dede72a8-facf-4b0a-be0e-b1eceb80d628" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +167,8 @@
       <workItem from="1577585231045" duration="14047000" />
       <workItem from="1577662723171" duration="18920000" />
       <workItem from="1578181450259" duration="12926000" />
-      <workItem from="1578274500764" duration="8867000" />
+      <workItem from="1578274500764" duration="8986000" />
+      <workItem from="1579109986213" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;static pages&quot;">
       <created>1577337270427</created>

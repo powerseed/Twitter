@@ -30,8 +30,8 @@
     @endif
   @else
     <div class="jumbotron">
-      <h1>Hello Laravel</h1>
-      <p class="lead">This is Laravel tutorial</p>
+      <h1>Hello! </h1>
+      <p class="lead">Welcome to Twitter!</p>
       <a class="btn btn-lg btn-success" href="{{ route("signup") }}">Sign up</a>
     </div>
   @endif
