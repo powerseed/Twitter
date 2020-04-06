@@ -31,7 +31,7 @@
   @else
     <div class="jumbotron">
       <h1>Hello! </h1>
-      <p class="lead">Welcome to Twitter!</p>
+      <p class="lead">Welcome to Meow!</p>
       <a class="btn btn-lg btn-success" href="{{ route("signup") }}">Sign up</a>
     </div>
   @endif

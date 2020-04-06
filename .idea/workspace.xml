@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dede72a8-facf-4b0a-be0e-b1eceb80d628" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/vagrant_cwd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vagrant/rgloader/loader.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vagrantfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Twitter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Meow.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +136,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -169,6 +175,7 @@
       <workItem from="1578181450259" duration="12926000" />
       <workItem from="1578274500764" duration="8986000" />
       <workItem from="1579109986213" duration="54000" />
+      <workItem from="1586139420859" duration="1208000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;static pages&quot;">
       <created>1577337270427</created>
@@ -190,26 +197,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;static pages&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="76" key="#Composer" timestamp="1577331231558">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="361" y="76" key="#Composer/0.0.1536.834@0.0.1536.834" timestamp="1577331231558" />
-    <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577475169395">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1577475169395" />
-    <state x="673" y="11" key="CommitChangelistDialog2" timestamp="1577337269912">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="673" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1577337269912" />
     <state x="526" y="302" width="483" height="261" key="ComposerInitDialogKey" timestamp="1577517644564">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="526" y="302" width="483" height="261" key="ComposerInitDialogKey/0.0.1536.834@0.0.1536.834" timestamp="1577517644564" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1586139448307">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1586139448307" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1586139448306">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1586139448306" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1586139448306">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1586139448306" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1586139448307">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1586139448307" />
     <state x="900" y="341" key="NewPhpFileDialog" timestamp="1578282932963">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="900" y="341" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1578282932963" />
+    <state x="377" y="117" width="782" height="600" key="find.popup" timestamp="1586140665072">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="377" y="117" width="782" height="600" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1586140665072" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1578190216827">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
