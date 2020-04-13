@@ -102,7 +102,7 @@ class UsersController extends Controller
         $view = "emails.confirm";
         $data = compact("user");
         $to = $user->email;
-        $subject = "Email Confirmation -- Twitter";
+        $subject = "Email Confirmation -- Meow";
         Mail::send($view, $data, function ($message) use ($to, $subject){
             $message->to($to)->subject($subject);
         });

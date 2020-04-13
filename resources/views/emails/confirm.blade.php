@@ -8,7 +8,7 @@
   <title>Email confirmation</title>
 </head>
 <body>
-  <h1>Thank you for signing up at Twitter</h1>
+  <h1>Thank you for signing up at Meow</h1>
   <p>
     Please click the link below to complete the signing up.
     <a href="{{ route("confirm_email", $user->activation_token) }}">
@@ -17,7 +17,7 @@
   </p>
 
   <p>
-    If you didn't sign up at Twitter, please ignore this email.
+    If you didn't sign up at Meow, please ignore this email.
   </p>
 </body>
 </html>

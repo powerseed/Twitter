@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dede72a8-facf-4b0a-be0e-b1eceb80d628" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Twitter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Twitter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/emails/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/confirm.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +112,7 @@
       <path value="$PROJECT_DIR$/vendor/league/flysystem" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
     </include_path>
   </component>
   <component name="ProjectId" id="1VVHBwR7PlgxC8JoMc3dQcq5Igl" />
@@ -170,6 +176,7 @@
       <workItem from="1578274500764" duration="8986000" />
       <workItem from="1579109986213" duration="54000" />
       <workItem from="1586791986943" duration="26000" />
+      <workItem from="1586798050667" duration="205000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;static pages&quot;">
       <created>1577337270427</created>
@@ -191,22 +198,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;static pages&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="76" key="#Composer" timestamp="1577331231558">
+    <state x="372" y="11" key="CommitChangelistDialog2" timestamp="1586798292193">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="76" key="#Composer/0.0.1536.834@0.0.1536.834" timestamp="1577331231558" />
-    <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577475169395">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1577475169395" />
-    <state x="673" y="11" key="CommitChangelistDialog2" timestamp="1577337269912">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="673" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1577337269912" />
-    <state x="526" y="302" width="483" height="261" key="ComposerInitDialogKey" timestamp="1577517644564">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="526" y="302" width="483" height="261" key="ComposerInitDialogKey/0.0.1536.834@0.0.1536.834" timestamp="1577517644564" />
+    <state x="372" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1586798292193" />
     <state x="900" y="341" key="NewPhpFileDialog" timestamp="1578282932963">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
