@@ -1,7 +1,7 @@
 # Intro
 A twitter-like website developed using Laravel. 
 <br>Users can 
-1. Create accounts.
+1. Create accounts after verifying email.
 2. Post and delete tweets.
 3. View others' tweets.
 4. Follow other users.
