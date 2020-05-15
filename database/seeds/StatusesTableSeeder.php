@@ -12,7 +12,7 @@ class StatusesTableSeeder extends Seeder
      */
     public function run()
     {
-        $Statuses = factory(Status::class)->times(100)->make();
+        $Statuses = factory(Status::class)->times(1000)->make();
         Status::insert($Statuses->toArray());
     }
 }

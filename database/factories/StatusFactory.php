@@ -2,12 +2,11 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use App\Model;
 use Faker\Generator as Faker;
 
 $factory->define(\App\Status::class, function (Faker $faker)
 {
-    $user_ids = ['1', '2', '3'];
+    $user_ids = \App\User::all()->pluck('id')->toArray();
 
     $data = $faker->date().' '.$faker->time();
     return [

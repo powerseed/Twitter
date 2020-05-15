@@ -1,6 +1,17 @@
 @extends("layouts.default")
 @section("title", "Home")
 @section("content")
+
+  @if ($errors->any())
+    <div class="alert alert-danger">
+      <ul>
+        @foreach ($errors->all() as $error)
+          <li>{{ $error }}</li>
+        @endforeach
+      </ul>
+    </div>
+  @endif
+
   @include("shared._messages")
   @if(Auth::check())
     <div class="row">
@@ -17,21 +28,28 @@
       </aside>
     </div>
 
-    @if($feed_items->count() > 0)
-      <div class="col-md-8">
-        <h3>Tweets list</h3>
-        <hr>
-        <ul class="list-unstyled">
-          @foreach($feed_items as $status)
-            @include("statuses._status", ["user"=>$status->user, "status"=>$status])
-          @endforeach
-        </ul>
+      <div class="card col-md-8" style="padding: 0px">
+        <div class="card-header">
+          <h5>Followings' Tweets</h5>
+        </div>
+        <div class="card-body" style="padding: 0px">
+          @if($feed_items->count() > 0)
+            <ul class="list-group list-group-flush">
+              @foreach($feed_items as $status)
+                @include("statuses._status", ["user"=>$status->user, "status"=>$status])
+              @endforeach
+            </ul>
+          @else
+            <div class="my-3 text-center">
+              <p>You haven't followed anyone.</p>
+            </div>
+          @endif
+        </div>
       </div>
-    @endif
   @else
     <div class="jumbotron">
       <h1>Hello! </h1>
-      <p class="lead">Welcome to Twitter!</p>
+      <p class="lead">Welcome to Meow!</p>
       <a class="btn btn-lg btn-success" href="{{ route("signup") }}">Sign up</a>
     </div>
   @endif

@@ -12,9 +12,6 @@
         <form method="post" action="{{ route("users.update", $user->id) }}">
           {{ csrf_field() }}
           {{ method_field("PATCH") }}
-          <div class="form-group gravatar">
-            <img src="{{ $user->gravatar() }}" alt="User gravartar">
-          </div>
           <div class="form-group">
             <label for="username">Username</label>
             <input name="username" id="username" class="form-control" type="text" value="{{ $user->name }}">

@@ -16,24 +16,6 @@ nav{
   }
 }
 
-footer{
-  font-weight: bold;
-  margin-top: 50px;
-  border-top: 1px solid #eaeaea;
-  img{
-    margin-right: 5px;
-    width: 17px;
-    height: 17px;
-  }
-
-  a{
-    color: #555;
-    &:hover{
-      color: #222;
-    }
-  }
-}
-
 .user_info{
   text-align: center;
   img{

@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dede72a8-facf-4b0a-be0e-b1eceb80d628" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Twitter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Twitter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/emails/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/confirm.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +107,6 @@
       <path value="$PROJECT_DIR$/vendor/league/flysystem" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
-      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
     </include_path>
   </component>
   <component name="ProjectId" id="1VVHBwR7PlgxC8JoMc3dQcq5Igl" />
@@ -175,8 +169,11 @@
       <workItem from="1578181450259" duration="12926000" />
       <workItem from="1578274500764" duration="8986000" />
       <workItem from="1579109986213" duration="54000" />
-      <workItem from="1586791986943" duration="26000" />
-      <workItem from="1586798050667" duration="205000" />
+      <workItem from="1586796448916" duration="103000" />
+      <workItem from="1589468917886" duration="10885000" />
+      <workItem from="1589483448785" duration="42000" />
+      <workItem from="1589491271563" duration="4250000" />
+      <workItem from="1589554774459" duration="663000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;static pages&quot;">
       <created>1577337270427</created>
@@ -185,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577337270427</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;style adjustments&quot;">
+      <created>1589469939349</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589469939349</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,20 +199,21 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;static pages&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;static pages&quot;" />
+    <MESSAGE value="&quot;style adjustments&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;style adjustments&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="11" key="CommitChangelistDialog2" timestamp="1586798292193">
+    <state x="372" y="11" key="CommitChangelistDialog2" timestamp="1589469938831">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="372" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1586798292193" />
-    <state x="900" y="341" key="NewPhpFileDialog" timestamp="1578282932963">
+    <state x="372" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1589469938831" />
+    <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1589483488785">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="900" y="341" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1578282932963" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1578190216827">
+    <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1589483488785" />
+    <state x="447" y="150" width="642" height="534" key="find.popup" timestamp="1589481791085">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1578190216827" />
+    <state x="447" y="150" width="642" height="534" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1589481791085" />
   </component>
 </project>

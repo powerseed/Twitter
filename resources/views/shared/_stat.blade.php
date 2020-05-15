@@ -1,4 +1,4 @@
-<div>
+<div class="mt-1">
   <a href="{{ route("users.followings", $user->id) }}">
     <strong id="followings" class="stat">
       {{count($user->followings)}}
@@ -13,7 +13,7 @@
     Followers
   </a>
 
-  <a href="">
+  <a href="{{ route('users.show', $user) }}">
     <strong id="statuses" class="stat">
       {{count($user->statuses)}}
     </strong>
