@@ -6,4 +6,4 @@ brUsers can
 3. View others' tweets.
 4. Follow other users.
 # Heroku link
-httpsradiant-ravine-54494.herokuapp.com
+https://radiant-ravine-54494.herokuapp.com
