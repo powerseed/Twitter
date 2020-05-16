@@ -7,3 +7,7 @@ brUsers can
 4. Follow other users.
 # Heroku link
 https://radiant-ravine-54494.herokuapp.com
+<br>
+Test account:
+email: powerseed5044@gmail.com
+password: 11111111 
